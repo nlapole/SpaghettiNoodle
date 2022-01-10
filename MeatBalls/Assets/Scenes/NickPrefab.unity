@@ -1820,6 +1820,10 @@ GameObject:
   - component: {fileID: 1656742558}
   - component: {fileID: 1656742557}
   - component: {fileID: 1656742560}
+<<<<<<< Updated upstream:MeatBalls/Assets/Scenes/SampleScene.unity
+=======
+  - component: {fileID: 1656742561}
+>>>>>>> Stashed changes:MeatBalls/Assets/Scenes/NickPrefab.unity
   m_Layer: 0
   m_Name: Player Character
   m_TagString: Untagged
@@ -1858,12 +1862,21 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
+<<<<<<< Updated upstream:MeatBalls/Assets/Scenes/SampleScene.unity
   m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+=======
+  m_GravityScale: 2.5
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+>>>>>>> Stashed changes:MeatBalls/Assets/Scenes/NickPrefab.unity
 --- !u!61 &1656742558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1950,6 +1963,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1656742555}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream:MeatBalls/Assets/Scenes/SampleScene.unity
   m_Script: {fileID: 11500000, guid: 77c43ea4ba076a844a0547bd78c8b7c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1969,6 +1983,43 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 12dccd75bb585de4998596434d723244, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &1656742561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656742555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1731a8fb24846a443abc603b39a1971c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 10
+  jumpSpeed: 10
+>>>>>>> Stashed changes:MeatBalls/Assets/Scenes/NickPrefab.unity
 --- !u!1 &1751560041
 GameObject:
   m_ObjectHideFlags: 0
